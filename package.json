@@ -1,7 +1,6 @@
 {
-  "name": "sanity",
+  "name": "cls",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "vite"
@@ -19,5 +18,6 @@
   },
   "dependencies": {
     "vite": "^5.0.12"
-  }
+  },
+  "description": ""
 }
