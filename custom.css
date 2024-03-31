@@ -1,0 +1,39 @@
+#brain {
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 50px;
+}
+#person_meditation {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 500px;
+}
+#au {
+  margin-top: 10%;
+}
+#question_mark {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#note_pad {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+}
+#button_third {
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#start_today {
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+}
+#start_today_button {
+  width: 65%;
+}

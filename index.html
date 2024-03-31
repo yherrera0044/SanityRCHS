@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sanity</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <link
+      rel="shortcut icon"
+      href="./sanity_pics/Screenshot 2024-02-11 231750.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar sticky-top bg-black">
+      <div class="container-fluid">
+        <img
+          src="./sanity_pics/Screenshot 2024-02-11 231750.jpg"
+          class="img max-h-10 pd-0 my-1"
+          alt="Responsive image "
+        />
+        <a class="navbar-brand ml-2 text-white" href="#">Sanity</a>
+
+        <div class="dropleft">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon navbar-dark"> </span>
+          </button>
+          <ul class="dropdown-menu bg-black">
+            <li>
+              <a href="#" class="dropdown-item bg-black text-white">Top</a>
+              <a class="dropdown-item bg-black text-white" href="#about_us"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item bg-black text-white" href="#join_us"
+                >Join Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- First part of content -->
+    <div class="container-fluid bg-black vh-100">
+      <div class="row align-items-center">
+        <div class="col text-left ml-12 pl-28 text-9xl my-16 text-white">
+          Sanity
+          <div class="text-4xl mt-5 ml-2 text-white">Mastering the mind</div>
+          <div class="d-grid btn-group position-relative mt-5 gap-2 col-8">
+            <button
+              class="btn btn-outline-warning"
+              onclick="meditate()"
+              role="button"
+            >
+              Meditation
+            </button>
+          </div>
+        </div>
+        <div class="col p-0 mx-auto">
+          <img
+            class="w-100 h-100 p-0 mt-5 mx-auto"
+            src="./sanity_pics/slideOnePic.png"
+            alt="Meditation"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Second part of content -->
+    <div class="container-fluid">
+      <div class="container rounded-5 outline vh-100">
+        <div class="row mx-4 mt-5 mb-5">
+          <div class="col">
+            <p class="pt-16 text-start text-8xl">
+              Your mental health matters. You matter
+            </p>
+          </div>
+          <div class="col d-grid">
+            <img
+              id="brain"
+              src="./sanity_pics/mental_health.jpg"
+              alt="brain picture"
+              class="center"
+            />
+            <p class="mt-16 pt-1 ml-8 text-xl font-medium">
+              Mental health includes our emotional, psychological, and social
+              well-being. It affects how we think, feel, and act, and helps
+              determine how we handle stress, relate to others, and make
+              choices.
+            </p>
+            <button
+              type="button"
+              onclick="britanica()"
+              class="btn mt-4 ml-8 btn-lg text-white font-medium bg-black"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third part of content -->
+    <div id="about_us" class="container-fluid vh-100">
+      <div class="row">
+        <div class="col">
+          <p id="au" class="font-normal text-6xl ml-4">About Us</p>
+          <img src="./sanity_pics/sitting_person.png" alt="" srcset="" />
+        </div>
+        <div class="col">
+          <p class="font-normal text-6xl mt-5 pt-3">
+            Based out of Reseda, C.A.
+          </p>
+          <p class="mt-2">Space to Yap</p>
+          <p class="font-normal text-6xl mt-5 pt-3">Partner</p>
+
+          <p class="mt-2">Space to Yap</p>
+          <p class="font-normal text-6xl mt-5 pt-3">Goals</p>
+          <p class="mt-2">Space to Yap</p>
+        </div>
+      </div>
+    </div>
+    <!-- Fourth part of the content -->
+    <div id="third_part" class="container-fluid bg-black vh-100 mt-5">
+      <div class="row">
+        <div class="col">
+          <img
+            id="person_meditation"
+            src="./sanity_pics/person-meditation.png"
+            alt="sitting_person"
+          />
+          <p class="text-white text-3xl text-center mt-4 font-semibold">
+            Guided Meditations
+          </p>
+          <p class="mt-4 text-white">
+            Give a detailed description of the service being provided here.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            id="question_mark"
+            src="./sanity_pics/question_mark.png"
+            alt=""
+            srcset=""
+          />
+          <p class="text-white text-3xl text-center mt-12 pt-12 font-semibold">
+            Safe Space For Discussion
+          </p>
+          <p class="mt-4 ml-5 text-white">
+            Give a detailed description of the service being provided here.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            id="note_pad"
+            src="./sanity_pics/note_pad.png"
+            alt=""
+            srcset=""
+          />
+          <p class="text-white text-3xl text-center mt-12 pt-12 font-semibold">
+            Article Writing
+          </p>
+          <p class="mt-4 text-white">
+            Give a detailed description of the service being provided here.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col position-relative d-grid btn-group mt-5 pt-5">
+          <button
+            id="button_third"
+            onclick="explore()"
+            class="btn btn-outline-warning"
+          >
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Fith part of the content -->
+    <div class="container-fluid bg-black">
+      <div
+        id="join_us"
+        class="vh-100 rounded-5 rounded-white outline bg-black container"
+      >
+        <div class="row">
+          <div class="ml-5 col">
+            <p class="text-white mt-5 pt-5 text-6xl font-normal">
+              An Invite to Sanity
+            </p>
+            <p class="text-white text-3xl mt-4 mb-3">
+              Let us help you de-stress and calm your mind to prepare you for
+              success
+            </p>
+            <button
+              id="start_today_button"
+              onclick="start_today()"
+              class="btn btn-outline-warning mt-16"
+            >
+              Start Today
+            </button>
+          </div>
+          <div class="col mt-14 pt-4">
+            <img id="start_today" src="./sanity_pics/hand_brain.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="management.js"></script>
+  </body>
+</html>
