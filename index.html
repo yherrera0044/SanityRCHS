@@ -29,14 +29,68 @@
         />
         <a class="navbar-brand ml-2 text-white" href="#">Sanity</a>
 
-        <div class="dropleft">
+        <button
+          class="navbar-toggler btn btn-outline-secondary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+
+        <div
+          class="offcanvas bg-black offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title text-6xl text-white"
+              id="offcanvasNavbarLabel"
+            >
+              Sanity
+            </h5>
+            <button
+              type="button"
+              class="btn-close bg-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-3xl text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-3xl" href="#about_us"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-3xl" href="#join_us">
+                  Join Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="">
           <button
             class="btn btn-outline-secondary dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >
-            <span class="navbar-toggler-icon navbar-dark"> </span>
+          > -->
+        <!-- <span class="navbar-toggler-icon navbar-dark"> </span>
           </button>
           <ul class="dropdown-menu bg-black">
             <li>
@@ -45,19 +99,21 @@
                 >About Us</a
               >
             </li>
-            <li>
-              <a class="dropdown-item bg-black text-white" href="#join_us"
+            <li> -->
+        <!-- <a class="dropdown-item bg-black text-white" href="#join_us"
                 >Join Us</a
               >
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </nav>
     <!-- First part of content -->
     <div id="zero_outline" class="container-fluid bg-black vh-100">
       <div class="row align-items-center">
-        <div class="col text-left ml-12 pl-28 text-9xl my-16 text-white">
+        <div
+          class="col text-left ml-12 pl-28 text-9xl my-16 mx-auto text-white"
+        >
           Sanity
           <div class="text-4xl mt-5 ml-2 text-white">Mastering the mind</div>
           <div class="d-grid btn-group position-relative mt-5 gap-2 col-8">
@@ -126,7 +182,10 @@
           <p class="mt-2">Space to Yap</p>
           <p class="font-normal text-6xl mt-5 pt-3">Partner</p>
 
-          <p class="mt-2">Space to Yap</p>
+          <p class="mt-2">
+            Our Partner is a nonprofit organization called MindStories.
+            MindStories was started by a group of Theravada Buddhist monks.
+          </p>
           <p class="font-normal text-6xl mt-5 pt-3">Goals</p>
           <p class="mt-2">Space to Yap</p>
         </div>
@@ -141,12 +200,6 @@
             src="./sanity_pics/person-meditation.png"
             alt="sitting_person"
           />
-          <p class="text-white text-3xl text-center mt-4 font-semibold">
-            Guided Meditations
-          </p>
-          <p class="mt-4 text-white">
-            Give a detailed description of the service being provided here.
-          </p>
         </div>
         <div class="col">
           <img
@@ -156,12 +209,6 @@
             alt=""
             srcset=""
           />
-          <p class="text-white text-3xl text-center mt-4 font-semibold">
-            Safe Space For Discussion
-          </p>
-          <p class="mt-4 ml-5 text-white">
-            Give a detailed description of the service being provided here.
-          </p>
         </div>
         <div class="col">
           <img
@@ -170,9 +217,37 @@
             alt=""
             srcset=""
           />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="text-white text-3xl text-center mt-4 font-semibold">
+            Guided Meditations
+          </p>
+        </div>
+        <div class="col">
+          <p class="text-white text-3xl text-center mt-4 font-semibold">
+            Safe Space For Discussion
+          </p>
+        </div>
+        <div class="col">
           <p class="text-white text-3xl text-center mt-4 font-semibold">
             Article Writing
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="mt-4 text-white">
+            Give a detailed description of the service being provided here.
+          </p>
+        </div>
+        <div class="col">
+          <p class="mt-4 ml-5 text-white">
+            Give a detailed description of the service being provided here.
+          </p>
+        </div>
+        <div class="col">
           <p class="mt-4 text-white">
             Give a detailed description of the service being provided here.
           </p>
