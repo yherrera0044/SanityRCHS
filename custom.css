@@ -43,3 +43,6 @@
 #start_today_button {
   width: 65%;
 }
+#about_us {
+  overflow: auto;
+}
