@@ -1,3 +1,4 @@
+
 #zero_outline {
   overflow: auto;
 }
@@ -34,6 +35,7 @@
   width: 35%;
   margin-right: auto;
   margin-left: auto;
+  
 }
 #start_today {
   margin-right: auto;
@@ -44,5 +46,8 @@
   width: 65%;
 }
 #about_us {
+  overflow: auto;
+}
+#fourth_outline{
   overflow: auto;
 }
